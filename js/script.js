@@ -49,7 +49,7 @@ var notepad = {
 		$("#note-body").val("");
     },
     
-    // this function fetches data from the localStorage
+   // this function fetches data from the localStorage
 	fetch: function(){
 		var data = localStorage["notes"];
 		if(typeof data == "undefined")
